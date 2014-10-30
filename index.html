@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dist/css/bootstrap.united.min.css">
+
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <!-- Nav bar here -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        	<div class="container-fluid">
+        		<div class="navbar-header">
+        			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-menu">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        			</button>
+        			<a class="navbar-brand" href="#">NCR</a>
+        		</div>
+        		<div class="collapse navbar-collapse" id="header-menu">
+        			<ul class="nav navbar-nav">
+        				<li><a href="#">Home</a></li>
+        				<li class="dropdown">
+        					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+        					<ul class="dropdown-menu">
+        						<li><a href="#">Desktop</a></li>
+        						<li><a href="#">Laptop</a></li>
+        						<li><a href="#">Tablet</a></li>
+        					</ul>
+        				</li>
+        				<li><a href="#">About</a></li>
+        				<li><a href="#">Contact</a></li>
+        			</ul>
+        		</div>
+        	</div>
+        </nav>
+
+        <div class="container-fluid">
+        	<form role="form" class="form-horizontal">
+				<div class="form-group">
+					<div class="col-xs-12 col-sm-8 col-med-6 col-lg-5">
+						<label for="firstname">Fist Name</label>
+						<input type="text" name="firstname" id="firstname" class="form-control">	
+					</div>					
+				</div>
+				<div class="form-group">
+					<div class="col-xs-12 col-sm-8 col-med-6 col-lg-5">
+						<label for="lastname">Last Name</label>
+						<input type="text" name="lastname" id="lastname" class="form-control">
+					</div>					
+				</div>
+				<div class="form-group">
+					<div class="dropdown col-xs-12 col-sm-8 col-med-6 col-lg-5">
+						<label for="gender">Gender</label>
+						<select class="form-control">
+							<option value="SelectOne" selected="selected">Please select one...</option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+							<option value="Unknown">Unknown</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-12 col-sm-8 col-med-6 col-lg-5">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="mail" class="form-control">
+					</div>					
+				</div>
+				<div class="form-group">
+					<div class="col-xs-12 col-sm-8 col-med-6 col-lg-5">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" class="form-control">
+					</div>					
+				</div>
+				<button type="buton" class="btn btn-primary">Summit</button>
+			</form>
+        </div>
+        <!-- Form goes here -->
+		
+
+        <script src="dist/js/jquery-2.1.1.min.js"></script>
+        <script src="dist/js/bootstrap.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
